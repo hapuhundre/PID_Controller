@@ -37,7 +37,7 @@ PID控制器的实现较为简单，课程的Python版本在cpp中实现也没�
 - steer初始参数的设置
   Init的三个系数Kp、Kd以及Ki在运动学上的含义。
 
- I should follow the following rules to use the manual adjustment.
+ I followed the following rules to use the manual adjustment.
 
 K_p的大小代表了水龙头的粗细，即控制器对汽车调节的敏感程度，越大调的越快，即增大比例系数一般会加快系统响应,如下图所示：
 
