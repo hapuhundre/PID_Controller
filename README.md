@@ -10,7 +10,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 
 
-
+![](pics/pic.png)
 
 行驶的视频参见video文件夹下mp4文件
 
@@ -43,7 +43,7 @@ K_p的大小代表了水龙头的粗细，即控制器对汽车调节的敏感�
 
 The size of K_p represents the thickness of the "faucet", that is, the controller's sensitivity to the car. The larger K_p, the faster the adjustment of driving direction. That is, increasing the scale factor will generally speed up the system response, as shown in the following figure:
 
-
+![](https://pic2.zhimg.com/80/1bf9717813a61536a354d075804f58c1_hd.jpg)
 
 
 
@@ -53,9 +53,10 @@ The integral coefficient is defined as
 
 
 
-where T_i is the integral time constant. Bigger T_i, ie reducing the integral coefficient is beneficial to reducing overshoot, less oscillation, and making the system more stable , but the system static elimination time becomes longer. The process is as follows:
+where T_i is the integral time constant. Bigger T_i, ie reducing the integral coefficient is beneficial to reducing overshoot, less oscillation, and making the system more stable , but the system static elimination time becomes longer.as shown in the following figure:
 
 
+![](https://pic3.zhimg.com/7d20a7bb08b55a6e4003011ecde23623_r.jpg)
 
 至于微分系数，主要用来来克服被控对象的滞后，尤其是对于汽车急转弯时，适当增大系数K_d可调整汽车响应速度。
 
