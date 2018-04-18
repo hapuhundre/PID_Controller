@@ -21,7 +21,7 @@ PID results can be found in the mp4 file under the `video` folder
 
 使用“twiddle”方法+手工调参(Manual adjustment )对三个系数Kp、Ki以及Kd进行调参，twiddle实现过程参见`PID.cpp`文件中的`Tunning`函数，但在tuning过程中，twiddle方法车辆的形式过程并不稳定,因此手工调整参数是有必要的。
 
-对于手工调节参数的基本原则，可参考**Tips**内容和相关资料，例如：
+对于手工调节参数的基本原则，可参考**Tips**内容和相关资料.
 
 
 
