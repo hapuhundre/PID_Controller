@@ -1,4 +1,4 @@
-PID控制器
+# PID控制器
 
 Self-Driving Car Engineer Nanodegree Program
 
@@ -18,7 +18,7 @@ PID results can be found in the mp4 file under the video folder
 
 
 
-PID Tuning
+## PID Tuning
 
 使用“twiddle”方法+手工调参(Manual adjustment )对三个系数Kp、Ki以及Kd进行调参，twiddle实现过程参见PID.cpp文件中的Tunning函数，但在tuning过程中，twiddle方法车辆的形式过程并不稳定,因此手工调整参数是有必要的。
 
@@ -28,7 +28,7 @@ I use the "twiddle" method + manual adjustment to adjust the three coefficients 
 
 
 
-Tips
+## Tips
 
 PID控制器的实现较为简单，课程的Python版本在cpp中实现也没什么难度。
 
